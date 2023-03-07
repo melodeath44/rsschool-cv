@@ -18,3 +18,11 @@ I have been studying ___HTML___ in ___CSS___ for 2 months, now I am starting to 
 
 ___
 
+**Education**
+
+***RS school*** is the first school with which I want to get a huge experience
+___
+
+**English language**
+* _A1_
+
