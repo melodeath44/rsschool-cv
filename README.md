@@ -1,2 +1,2 @@
 # rsschool-cv
-https://github.com/melodeath44/rsschool-cv.git
+https://melodeath44.github.io/rsschool-cv/cv
