@@ -91,16 +91,19 @@ body{
     line-height: 2;
     background-color: rgb(72 72 72 / 30%);
     padding: 10px;
+    max-height: 285px;
+    height: 100%;
 }
 .about__skill{
     max-width: 50%;
     display: flex;
     flex-direction: column;
+    width: 100%;
 
 }
 
 .about__skill-title{
-    padding: 10px 368px 10px 10px;
+    padding: 10px 0px 10px 10px;
     background-color: rgb(72 72 72 / 30%);
 }
 .about__skill-list{
@@ -184,5 +187,24 @@ body{
     right: 0;
     left: 0;
     background-color: rgb(170, 4, 4);
+}
+
+.my-project__inner{
+    border: 2px solid rgb(110 110 110 / 30%);
+    border-radius: 5px;
+    width: 40%;
+    background-color: rgb(72 72 72 / 30%);
+    margin: 0 auto;
+}
+
+.my-project__item{
+
+}
+
+.my-project__img{
+    max-width: 100%;
+}
+.shelter{
+    text-align: center;
 }
 
