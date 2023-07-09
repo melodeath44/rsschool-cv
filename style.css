@@ -15,8 +15,8 @@ ul{
 a{
     text-decoration: none;
     color: #fff;
-
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -29,6 +29,7 @@ body{
     margin: 0 auto;
     padding: 0 10px;
 }
+
 .section{
     padding-top: 50px;
 }
@@ -48,13 +49,12 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
-
 }
 .header__img{
     max-width: 45%;
     margin-right: 40px;
-
 }
+
 .header-img{
     width: 100%;
     border-radius: 10px;
@@ -65,26 +65,31 @@ body{
     width: 100%;
     padding-top: 50px;
 }
+
 .header__nav__link{
     padding: 5px 5px;
     position: relative;
     z-index: 5;
     transition: .5s all ease-in-out;
 }
+
 .header__nav-item-block{
     overflow: hidden;
 }
+
 .header__nav__link-about:hover + .header__nav-link-hidden{
     display: block;
     transform: translate(0, -100%);
     transition: .5s all ease-in-out;
     box-shadow: 0px 0px 10px #fff;
 }
+
 .header__nav__link-project:hover + .header__nav-link-hidden{
     display: block;
     transform: translate(0, -100%);
     transition: .5s all ease-in-out;
 }
+
 .header__nav__link-contact:hover + .header__nav-link-hidden{
     display: block;
     transform: translate(0, -100%);
@@ -99,6 +104,7 @@ body{
     transform: translate(-200%, -100%);
     transition: .5s all ease-in-out;
 }
+
 .header__nav-item{
     display: flex;
     justify-content: space-around;
@@ -116,7 +122,6 @@ body{
     border-bottom: 2px solid #ddd;
     margin: 0 auto 30px;
     max-width: 450px;
-
 }
 
 .about{
@@ -134,12 +139,12 @@ body{
     max-height: 285px;
     height: 100%;
 }
+
 .about__skill{
     max-width: 50%;
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 
 .about__skill-title{
@@ -248,7 +253,6 @@ body{
     transition: .4s all ease-in-out;
 }
 
-
 .my-project__img{
     max-width: 100%;
 }
@@ -332,6 +336,23 @@ body{
     background-color: #a32020;
 }
 
+.footer__link-vk:hover,
+.footer__link-instagram:hover,
+.footer__link-rsscool:hover,
+.footer__link-github:hover,
+.footer__link-tiktok:hover{
+    transform: scale(1.2);
+    transition: .4s all ease-in-out;
+}
+
+.footer__link-vk,
+.footer__link-instagram,
+.footer__link-rsscool,
+.footer__link-github,
+.footer__link-tiktok{
+    transition: .4s all ease-in-out;
+}
+
 .footer__link-img{
     width: 60px;
     height: 60px;
@@ -342,4 +363,3 @@ body{
     text-align: center;
     font-weight: 700;
 }
-
