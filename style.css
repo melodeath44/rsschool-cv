@@ -21,7 +21,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(45 45 45);
+    background-color: rgb(46, 45, 45);
 }
 
 .container{
@@ -362,4 +362,16 @@ body{
 .footer__text{
     text-align: center;
     font-weight: 700;
+    position: relative;
+}
+.footer__text::after{
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/star.svg);
+
 }
